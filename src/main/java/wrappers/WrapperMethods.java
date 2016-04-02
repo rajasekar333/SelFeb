@@ -362,12 +362,17 @@ public class WrapperMethods implements WrapperRules {
 		catch (WebDriverException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Browser is not available");
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Common Exception");
 		}
 		finally{
 			takeSnap();
 		}
 	}
 
+	
+	
 
 }
 
